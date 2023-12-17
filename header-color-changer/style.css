@@ -1,0 +1,54 @@
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container button {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.red, .blue, .green {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.red {
+    background: #c06565;
+    transition: background 0.5s;
+}
+.blue {
+    background: #65a5c0;
+    transition: background 0.5s;
+}
+.green {
+    background: #71c065;
+    transition: background 0.5s;    
+}
+
+.red:hover {
+    background: #9b5252;
+}
+
+.blue:hover {
+    background: #5a91a8;
+}
+
+.green:hover {
+    background: #5d9d54;
+}
